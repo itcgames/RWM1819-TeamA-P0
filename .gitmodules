@@ -16,3 +16,9 @@
 [submodule "lib/RealLifeSim"]
 	path = lib/RealLifeSim
 	url = https://github.com/peterdaly97/RealLifeSim.git
+[submodule "lib/P0-C00202334"]
+	path = lib/P0-C00202334
+	url = https://github.com/davemau51074/P0-C00202334.git
+[submodule "lib/p0-c00206244"]
+	path = lib/p0-c00206244
+	url = https://github.com/sybek96/p0-c00206244.git

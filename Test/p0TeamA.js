@@ -74,6 +74,24 @@ it('collatz(2) = 1', function () {
 });
 
 
+it('Diff exists', function () {
+  expect(p0-c00202334).to.be.a('function');
+
+});
+
+it('Fizzbuzz exists', function () {
+  expect(fizzbuzz).to.be.a('function');
+
+});
+
+it('gives 3 when number can be divided by 3', function () {
+  expect(fizzbuzz(6)).to.equal(3);
+});
+
+it('gives 5 when number can be divided by 5', function () {
+  expect(fizzbuzz(10)).to.equal(5);
+});
+
 
 
   // Add more assertions here
