@@ -12,13 +12,6 @@ describe('p0TeamA()', function () {
     expect(modulo_first(2)).to.equal(2);
   });
 
-  it('does something else', function () {
-    expect(true).to.equal(false);
-  });
-
-
-
-
   it('exists', function () {
   expect(decrement_if_less_than_first).to.be.a('function');
  });
