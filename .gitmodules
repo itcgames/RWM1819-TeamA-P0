@@ -4,3 +4,6 @@
 [submodule "RealWorldSimY4"]
 	path = RealWorldSimY4
 	url = https://github.com/JackDalton3110/RealWorldSimY4.git
+[submodule "lib/p0-C00202505"]
+	path = lib/p0-C00202505
+	url = https://github.com/AaronCur/p0-C00202505.git

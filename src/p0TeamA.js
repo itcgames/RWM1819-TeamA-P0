@@ -4,5 +4,4 @@
 var p0TeamA = function () {
   // your code goes here
 
-  return modulo_first(2)
 }
