@@ -3,16 +3,21 @@
 describe('p0TeamA()', function () {
   'use strict';
 
-  it('exists', function () {
+  it('p0TeamA exists', function () {
     expect(p0TeamA).to.be.a('function');
 
   });
 
+
+  it('modulo_first exists', function () {
+    expect(modulo_first).to.be.a('function');
+  });
   it('return modulo 2', function () {
     expect(modulo_first(2)).to.equal(2);
   });
 
-  it('exists', function () {
+
+  it('decrement_if_less_than_first exists', function () {
   expect(decrement_if_less_than_first).to.be.a('function');
  });
 it('Works with 1 value', function () {
