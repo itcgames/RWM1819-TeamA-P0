@@ -91,6 +91,29 @@ it('gives 3 when number can be divided by 3', function () {
 it('gives 5 when number can be divided by 5', function () {
   expect(fizzbuzz(10)).to.equal(5);
 });
+it('running_total exists', function () {
+  expect(running_total).to.be.a('function');
+
+});
+
+it('add 6', function () {
+  expect(running_total(6)).to.equal(6);
+});
+it('add 2', function () {
+  expect(running_total(2)).to.equal(8);
+});
+it('add 10', function () {
+  expect(running_total(10)).to.equal(18);
+});
+it('add -6', function () {
+  expect(running_total(-6)).to.equal(12);
+});
+it('add -12', function () {
+  expect(running_total(-12)).to.equal(0);
+});
+it('add -12', function () {
+  expect(running_total(-12)).to.equal(-12);
+});
 
 
 
