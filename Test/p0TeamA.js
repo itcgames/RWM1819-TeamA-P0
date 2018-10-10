@@ -92,6 +92,19 @@ it('gives 5 when number can be divided by 5', function () {
   expect(fizzbuzz(10)).to.equal(5);
 });
 
+it('running_total exists', function () {
+  expect(running_total).to.be.a('function');
+
+});
+
+it('[1, 2, 3] = [1,3,6]', function () {
+  expect(running_total([1, 2, 3])).to.deep.equal([1, 3, 6]);
+});
+
+it('[-1, -5, -6] = [-1,-6,-12]', function () {
+  expect(running_total([-1, -5, -6])).to.deep.equal([-1, -6, -12]);
+});
+
 
 
 

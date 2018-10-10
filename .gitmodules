@@ -25,3 +25,6 @@
 [submodule "lib/Y4-Real-World"]
 	path = lib/Y4-Real-World
 	url = https://github.com/c00208743/Y4-Real-World.git
+[submodule "lib/RealWorldModelling"]
+	path = lib/RealWorldModelling
+	url = https://github.com/C00206286/RealWorldModelling.git
